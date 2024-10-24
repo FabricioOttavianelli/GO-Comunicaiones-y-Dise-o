@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+.miheader {
+    background-color:#f4645a;
+    
+
+}
+.miheader img {
+
+    width: 8rem;
+    border-radius: 15%;
+    transition: 1.5s;
+
+}
+
+.miheader img:hover {
+
+    border-radius: 30%;
+    width: 9rem;
+   
+}
+
+.miboton {
+
+    border-radius: 50%;
+    background-color: #f4645a;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.milinks {
+
+    font-size: 13px;
+
+}
+
+/* Body */
+
+/* Footer */
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f4645a;
+    align-items: center ;
+    padding-left: 4px;
+    padding-right: 10px;
+    font-size: smaller;
+
+}
+
+.misocial button {
+
+   border: none;
+   background-color: #f4645a;
+
+
+}
+
+.misocial button img {
+
+    width: 2.5rem;
+}
+
+
+
+
+
