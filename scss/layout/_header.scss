@@ -1,0 +1,51 @@
+@import "../variables/variable.scss";
+
+header {
+    background-color: $color-go;
+
+    img {
+        width: 8rem;
+        border-radius: 15%;
+        transition: 1.5s;
+    }
+
+    img:hover {
+
+        border-radius: 30%;
+        width: 9rem;
+       
+    }
+
+    .milinks {
+
+        font-size: 13px;
+    
+    }
+
+    .dropmenu {
+
+        background-color: $color-go;
+        overflow: hidden;
+        
+    }
+    
+    
+    .dropmenu li :hover {
+    
+        background-color: $color-black;
+        background-color: $color-go;
+        transition: 1s;
+        margin-left: 10px;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+

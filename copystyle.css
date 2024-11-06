@@ -1,0 +1,451 @@
+
+
+/* Header */
+
+
+
+.dropmenu {
+
+    background-color: #f4645a;
+    
+}
+
+.dropmenu p {
+    display: inline;
+
+}
+
+.dropmenu li :hover {
+
+    background-color: black;
+    color: #f4645a;
+    transition: 1s;
+
+}
+
+.dropmenu li:hover p {
+
+    margin-left: 10px;
+    transition: 1s;
+}
+
+
+.opiniones {
+
+    display: block;
+    color: black;
+    transition: 1s;
+    text-decoration: none;
+    width: 5rem;
+    text-align: center;
+    border-style: groove;
+    border-color: black;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 1% 0
+ 
+}
+
+
+.opiniones:hover {
+
+    color: #f4645a;
+    background-color: black;
+    border-color: #f4645a;
+}
+
+
+
+/* Titulos y Subtitulos */
+
+h1 {
+
+    text-transform: capitalize;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: #f4645a;
+    padding-top: 50px;
+    margin-bottom: 7%;
+    font-size: 4rem;
+     
+}
+
+h2 {
+
+    text-transform: capitalize;
+    font-family: "Dosis", sans-serif;
+    text-align: end;
+    margin-left: 10px;
+    color: #f4645a;
+    font-size: 2rem;
+    margin-right: 15%;
+    margin-bottom: 5%;
+
+}
+
+h3 {
+
+    text-transform: capitalize;
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #f4645a;
+
+}
+
+
+
+@media screen and  (max-width: 990px) {
+
+
+    h1 {
+
+   
+        font-size: 3rem;
+        padding: 30px;
+  
+    }
+
+    h3 {
+        padding: 30px;
+    }
+
+
+
+
+}
+
+
+
+/* INDEX */
+
+.solicite-propuesta {
+
+    text-decoration: none;
+    font-size: 30px; 
+    text-align: center;
+    color: #f4645a;
+    background-color: #1b1b1b;
+    padding: 3px; 
+    margin-bottom: 35px;
+
+}
+
+.logo {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+    height: 20rem;
+
+
+    
+}
+
+.logo img {
+
+    width: 50%
+
+}
+
+/* Branding */
+
+.branding {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.brandingdiv {
+
+ width: 100px;
+
+}
+
+.brandingdiv:hover p{
+
+   visibility: visible;
+    color: #f4645a;
+    transition: 2s;
+    
+   }
+
+.brandingdiv p {
+
+   visibility: hidden;
+    
+     }
+
+.video {
+
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 990px) {
+
+    .branding {
+
+        display: flex;
+     
+    }
+
+    .brandingdiv {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brandingdiv img {
+
+        width: 2rem;
+        height: 2rem;
+    }
+
+       .video {
+
+       display: none;
+    }
+
+    .brandingdiv p {
+        visibility: visible;
+        color: #f4645a;
+    }
+}
+
+/* Community Manager - Diseño Gráfico - Nuestro Equipo */
+
+
+.comdisdiv {
+
+    display: flex;
+    align-items: center;
+    color: #f4645a;
+    justify-content: space-between;
+    margin: 30px;
+
+
+}
+
+
+.comdisdiv p {
+
+    font-family: unkempt, Arial ;
+    
+}
+
+.navequipo {
+
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    bottom: 55px;
+    right: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 10%;
+
+}
+
+.navequipo a{
+
+
+    text-decoration: none;
+    color: #f4645a;
+}
+
+.enddiv {
+
+    margin-bottom: 90px;
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+    .comdisdiv {
+
+        flex-direction: column;
+
+    }
+
+    .comdisdiv img {
+
+        width: 300px;
+        height: 275px;
+
+
+    }
+
+  
+  
+}
+
+/*  Opiniones */
+
+.h3opinoines {
+    text-align: start;
+}
+
+.opiniondiv {
+    margin-left: 20px;
+}
+
+.opinion {
+
+    color: #f4645a;
+    width: 50%;
+    font-family: unkempt, Arial ;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.opinionform {
+
+    color: #f4645a;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: end;
+    flex-direction: column
+
+}
+
+.inputfield {
+
+    background-color: #1b1b1b;
+    color: #f4645a;
+ 
+
+
+}
+
+.inputtext {
+
+    background-color: #1b1b1b;
+    color: #f4645a;
+    height: 100pxpx;
+    width: 250px;
+
+
+}
+
+
+
+@media screen and (max-width: 990px) {
+
+    .opinionform {
+
+      
+        align-items: center;
+        margin: 0;
+     
+    }
+
+    h2 {
+
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
+
+   
+
+}
+
+    
+/*  Solicitud de formulario */
+
+.solicitudform {
+
+    color: #f4645a;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ulform {
+
+    list-style: circle;
+}
+
+
+/* Footer */
+
+.footer {
+
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4645a;
+    align-items: center ;
+    padding-left: 4px;
+    padding-right: 10px;
+    font-size: smaller;
+}
+
+.footer-div {
+
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-self: center;
+
+}
+
+.footer-div img {
+    width: 250px;
+    align-self: center;
+    height: min-content;
+    margin-right: 50px;
+}
+
+
+.footer-parrafo {
+    padding-top: 12px;
+}
+
+.misocial button {
+
+   border: none;
+   background-color: #f4645a;
+
+
+}
+
+.misocial button img {
+
+    width: 2.5rem;
+}
+
+@media screen and  (max-width: 990px) {
+
+    .footer-div img {
+
+        display: none;
+    }
+
+}
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
