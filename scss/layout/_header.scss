@@ -1,4 +1,5 @@
-@import "../variables/variable.scss";
+@import "../variables/_variable";
+
 
 header {
     background-color: $color-go;
@@ -33,12 +34,13 @@ header {
     .dropmenu li :hover {
     
         background-color: $color-black;
-        background-color: $color-go;
         transition: 1s;
         margin-left: 10px;
+        color: $color-go;
     
     }
     
+
 }
 
 

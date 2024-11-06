@@ -32,9 +32,9 @@ header .dropmenu {
 }
 header .dropmenu li :hover {
   background-color: black;
-  background-color: #f4645a;
   transition: 1s;
   margin-left: 10px;
+  color: #f4645a;
 }
 
 /*# sourceMappingURL=style.css.map */
