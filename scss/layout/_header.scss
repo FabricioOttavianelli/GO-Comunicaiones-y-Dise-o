@@ -25,6 +25,8 @@ header {
 
         background-color: $color-go;
         overflow: hidden;
+        font-size: 13px;
+
 
         li {
             & :hover {
@@ -41,22 +43,22 @@ header {
     .opiniones {
 
         display: block;
-        color: black;
+        color: $color-black;
         transition: 1s;
         text-decoration: none;
         width: 5rem;
         text-align: center;
         border-style: groove;
-        border-color: black;
+        border-color: $color-black;
         border-radius: 10px;
         font-size: larger;
         padding: 1% 0;
 
         &:hover {
-            color: #f4645a;
-            background-color: black;
-            border-color: #f4645a;
-
+            color: $color-go;
+            background-color: $color-black;
+            border-color: $color-go;
+            
         }
      
     }

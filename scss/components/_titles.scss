@@ -1,38 +1,38 @@
 @use "../utilities/variable" as *;
 
+@mixin title ($tranform, $fontsize, $textalign) {
+    text-transform: $tranform;
+    font-size: $fontsize;
+    text-align: $textalign;
+    color: $color-go;
+    font-family: $font-primary;
+}
+
 h1 {
 
-    text-transform: capitalize;
-    font-family: $font-primary;
-    text-align: center;
-    color: $color-go;
-    padding-top: 50px;
+    @include title(capitalize,4rem,center);
+
+
     margin-bottom: 7%;
-    font-size: 4rem;
-     
+    padding-top: 50px;
 }
+
+
 
 h2 {
 
-    text-transform: capitalize;
-    font-family: $font-primary;
-    text-align: end;
-    margin-left: 10px;
-    color: $color-go;
-    font-size: 2rem;
-    margin-right: 15%;
-    margin-bottom: 5%;
+    @include title(capitalize,2rem,end);
+    margin: 0px 15% 5% 10px;
 
 }
 
 h3 {
 
-    text-transform: capitalize;
-    font-family: $font-primary;
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: $color-go;
+    @include title(capitalize,1.5rem,center);
+    margin: 0px 10px;
 
 }
+
+
+
 

@@ -4,20 +4,20 @@
 
     display: flex;
     justify-content: space-around;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 50px;
-
-    div {
+    margin: 0px 20px 50px;
+    
+    .brandingdiv {
 
         width: 100px;
         cursor: pointer;
+        align-items: center;
 
         p {
 
             visibility: hidden;
-             
-              }
+            text-align: center;
+        }
+
 
         &:hover p{
 
