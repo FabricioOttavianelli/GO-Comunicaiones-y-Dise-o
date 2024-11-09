@@ -1,0 +1,38 @@
+@use "../utilities/variable" as *;
+
+h1 {
+
+    text-transform: capitalize;
+    font-family: $font-primary;
+    text-align: center;
+    color: $color-go;
+    padding-top: 50px;
+    margin-bottom: 7%;
+    font-size: 4rem;
+     
+}
+
+h2 {
+
+    text-transform: capitalize;
+    font-family: $font-primary;
+    text-align: end;
+    margin-left: 10px;
+    color: $color-go;
+    font-size: 2rem;
+    margin-right: 15%;
+    margin-bottom: 5%;
+
+}
+
+h3 {
+
+    text-transform: capitalize;
+    font-family: $font-primary;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: $color-go;
+
+}
+

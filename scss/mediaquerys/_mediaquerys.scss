@@ -1,0 +1,81 @@
+@use "../utilities/_variable" as *;
+
+@media screen and  (max-width: 990px) {
+
+    h1 {
+        font-size: 3rem;
+        padding: 30px;
+  
+    }
+
+    
+    h2 {
+
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+
+    }
+
+    h3 {
+        padding: 30px;
+    }
+
+    .branding {
+
+        display: flex;
+     
+    }
+
+    .brandingdiv {
+
+        display: flex;
+        flex-direction: column;
+
+        img {
+
+            width: 2rem;
+            height: 2rem;
+        }
+
+        p {
+            visibility: visible;
+            color: #f4645a;
+        }
+    }
+
+
+    .video {
+
+       display: none;
+    }
+
+    .comdisdiv {
+
+        flex-direction: column;
+
+        img {
+
+            width: 300px;
+            height: 275px;
+        }
+
+    }
+
+    .opinionform {
+
+      
+        align-items: center;
+        margin: 0;
+     
+    }
+
+    .footer-div {
+        
+        img {
+
+        display: none;
+        }
+    }
+
+}

@@ -1,0 +1,23 @@
+@use "../utilities/variable" as *;
+
+.navequipo {
+
+
+    background-color: $color-black;
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    bottom: 55px;
+    right: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 10%;
+
+}
+
+.navequipo a{
+
+    text-decoration: none;
+    color: $color-go;
+}

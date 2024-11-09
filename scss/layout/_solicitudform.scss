@@ -1,0 +1,16 @@
+@use "../utilities/_variable" as *;
+
+.solicitudform {
+
+    color: $color-go;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ulform {
+
+    list-style: circle;
+}
+
+

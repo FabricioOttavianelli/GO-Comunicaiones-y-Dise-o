@@ -1,0 +1,22 @@
+@use "../utilities/variable" as *;
+
+.comdisdiv {
+
+    display: flex;
+    align-items: center;
+    color: #f4645a;
+    justify-content: space-between;
+    margin: 30px;
+
+    p {
+
+        font-family: $font-secondary ;
+        
+    }
+}
+
+.enddiv {
+
+    margin-bottom: 90px;
+}
+

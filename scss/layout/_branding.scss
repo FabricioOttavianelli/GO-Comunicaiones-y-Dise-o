@@ -1,0 +1,38 @@
+@use "../utilities/_variable" as *;
+
+.branding {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+
+    div {
+
+        width: 100px;
+        cursor: pointer;
+
+        p {
+
+            visibility: hidden;
+             
+              }
+
+        &:hover p{
+
+            visibility: visible;
+             color: $color-go;
+             transition: 2s;
+             
+             
+            }    
+       }  
+}
+
+.video {
+
+    width: 300px;
+    justify-self: center;
+    align-self: center;
+}
