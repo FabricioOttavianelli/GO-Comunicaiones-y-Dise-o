@@ -4,15 +4,27 @@
 
     display: flex;
     align-items: center;
-    color: #f4645a;
+    color: $color-go;
     justify-content: space-between;
     margin: 30px;
+
+    img{
+
+
+        -webkit-box-shadow: 0px 0px 58px 25px rgba(0,0,0,0.78);
+        -moz-box-shadow: 0px 0px 58px 25px rgba(0,0,0,0.78);
+        box-shadow: 0px 0px 58px 25px rgba(0,0,0,0.78);
+    }
+    
+
 
     p {
 
         font-family: $font-secondary ;
         
     }
+
+
 }
 
 .enddiv {

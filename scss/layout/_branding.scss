@@ -35,4 +35,9 @@
     width: 300px;
     justify-self: center;
     align-self: center;
+
+    -webkit-box-shadow: 0px 0px 58px 25px rgba(0,0,0,0.78);
+    -moz-box-shadow: 0px 0px 58px 25px rgba(0,0,0,0.78);
+    box-shadow: 0px 0px 58px 25px rgba(0,0,0,0.78);
+    
 }

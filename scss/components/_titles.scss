@@ -10,11 +10,15 @@
 
 h1 {
 
+
+
     @include title(capitalize,4rem,center);
 
 
     margin-bottom: 7%;
     padding-top: 50px;
+
+    
 }
 
 

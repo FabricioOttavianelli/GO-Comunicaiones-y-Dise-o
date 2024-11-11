@@ -3,10 +3,13 @@
 
 .h3opinoines {
     text-align: start;
+ 
+    
 }
 
 .opiniondiv {
     margin-left: 20px;
+
 }
 
 .opinion {
@@ -39,10 +42,7 @@
 
 .inputtext {
 
-    background-color: $color-background;
-    color: $color-go;
+    @extend .inputfield;
     height: 100pxpx;
     width: 250px;
-
-
 }
