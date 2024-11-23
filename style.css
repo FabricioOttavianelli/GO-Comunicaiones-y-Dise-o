@@ -88,10 +88,11 @@ h3 {
   display: flex;
   justify-content: center;
   margin-bottom: 7%;
-  height: 20rem;
+  height: 10rem;
+  margin-top: 0;
 }
 .logo img {
-  width: 50%;
+  width: 15rem;
 }
 
 .solicite-propuesta {
